@@ -73,6 +73,9 @@ public class Login extends JFrame {
 			mainframe.setVisible(true);
 			this.setVisible(false);
 		}else {
+			txtTaiKhoan.setText("");
+			txtMatKhau.setText("");
+			
 			JOptionPane hopThoai = new JOptionPane();
 			hopThoai.showMessageDialog(this,"Đăng nhập thất bại");
 		}
